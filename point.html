@@ -25,44 +25,44 @@
 
     <script type="text/javascript">
 <!--
-	function onButtonClick() {
-		zurl = document.forms.id_form1.id_textBox1.value;
-		if (zurl == "" || zurl == null) {
-			target = document.getElementById("output");
-			target.innerText = "Rakuten URLを入力してください";
-			//target.innerText = document.id_form1.id_textBox1.value;//これでもOK
+    function onButtonClick() {
+        zurl = document.forms.id_form1.id_textBox1.value;
+        if (zurl == "" || zurl == null) {
+            target = document.getElementById("output");
+            target.innerText = "Rakuten URLを入力してください";
+            //target.innerText = document.id_form1.id_textBox1.value;//これでもOK
 
-		}
+        }
 
-		// 入力内容がある場合は 商品ページ にジャンプ
-		else {
+        // 入力内容がある場合は 商品ページ にジャンプ
+        else {
 
-			location.href = "http://hb.afl.rakuten.co.jp/hgc/120168ae.53fff06d.120168af.0036f31c/?pc="
-					+ zurl;
-		}
+            location.href = "http://hb.afl.rakuten.co.jp/hgc/120168ae.53fff06d.120168af.0036f31c/?pc="
+                    + zurl;
+        }
 
-	}
+    }
 
-	function disp() {
+    function disp() {
 
-		// 入力ダイアログを表示 ＋ 入力内容を user に代入
-		zurl = window.prompt("Rakuten URLを入力してください", "");
+        // 入力ダイアログを表示 ＋ 入力内容を user に代入
+        zurl = window.prompt("Rakuten URLを入力してください", "");
 
-		getlink(zurl)
+        getlink(zurl)
 
-	}
+    }
 
-	function getlink(zurl) {
-		if (zurl == "" || zurl == null) {
+    function getlink(zurl) {
+        if (zurl == "" || zurl == null) {
 
-			window.alert('Rakuten URLを入力されていません');
+            window.alert('Rakuten URLを入力されていません');
 
-		}
+        }
 
-		// 入力内容がある場合は 商品ページ にジャンプ
-		else {
+        // 入力内容がある場合は 商品ページ にジャンプ
+        else {
 
-			location.href = "http://hb.afl.rakuten.co.jp/hgc/120168ae.53fff06d.120168af.0036f31c/?pc="
+            location.href = "http://hb.afl.rakuten.co.jp/hgc/120168ae.53fff06d.120168af.0036f31c/?pc="
                         + zurl;
             }
         }
@@ -81,7 +81,7 @@
         <div class="collapse navbar-collapse" id="navbarExample">
             <ul class="sidebar-nav navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    <a class="nav-link" href="http://aliyun.zhongyeyuan.com.cn/znb/zac-bootstrap"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="fa fa-fw fa-area-chart"></i> Charts</a>
@@ -192,7 +192,7 @@
 
             <!-- Breadcrumbs -->
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                <li class="breadcrumb-item"><a href="http://aliyun.zhongyeyuan.com.cn/znb/zac-bootstrap">Dashboard</a></li>
                 <li class="breadcrumb-item active">My Dashboard</li>
             </ol>
 
@@ -297,7 +297,7 @@
 
 
 
-    
+
 
 
         </div>
